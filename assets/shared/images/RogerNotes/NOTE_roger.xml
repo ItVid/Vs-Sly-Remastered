@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NOTE_roger.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="blue0000" x="0" y="0" width="161" height="162" pivotX="3" pivotY="7"/>
+	<SubTexture name="blue hold end0000" x="161" y="0" width="50" height="64" pivotX="0" pivotY="0"/>
+	<SubTexture name="blue hold piece0000" x="211" y="0" width="50" height="44" pivotX="0" pivotY="0"/>
+	<SubTexture name="green0000" x="261" y="0" width="161" height="162" pivotX="4" pivotY="6"/>
+	<SubTexture name="green hold end0000" x="422" y="0" width="50" height="64" pivotX="0" pivotY="0"/>
+	<SubTexture name="green hold piece0000" x="0" y="162" width="50" height="44" pivotX="0" pivotY="0"/>
+	<SubTexture name="pruple end hold0000" x="50" y="162" width="50" height="64" pivotX="0" pivotY="0"/>
+	<SubTexture name="purple0000" x="100" y="162" width="159" height="162" pivotX="0" pivotY="5"/>
+	<SubTexture name="purple hold piece0000" x="259" y="162" width="50" height="44" pivotX="0" pivotY="0"/>
+	<SubTexture name="red0000" x="309" y="162" width="154" height="162" pivotX="1" pivotY="6"/>
+	<SubTexture name="red hold end0000" x="0" y="324" width="50" height="64" pivotX="0" pivotY="0"/>
+	<SubTexture name="red hold piece0000" x="50" y="324" width="50" height="44" pivotX="0" pivotY="0"/>
+</TextureAtlas>

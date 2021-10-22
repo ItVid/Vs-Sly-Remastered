@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Roger .png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Roger Down0" x="0" y="0" width="567" height="547"/>
+	<SubTexture name="Roger Down1" x="0" y="0" width="567" height="547"/>
+	<SubTexture name="Roger Down2" x="567" y="0" width="567" height="547"/>
+	<SubTexture name="Roger Down3" x="567" y="0" width="567" height="547"/>
+	<SubTexture name="Roger Down4" x="567" y="0" width="567" height="547"/>
+	<SubTexture name="Roger Down5" x="567" y="0" width="567" height="547"/>
+	<SubTexture name="Roger Down6" x="567" y="0" width="567" height="547"/>
+	<SubTexture name="Roger Down7" x="567" y="0" width="567" height="547"/>
+	<SubTexture name="Roger Down8" x="567" y="0" width="567" height="547"/>
+	<SubTexture name="Roger Down9" x="567" y="0" width="567" height="547"/>
+	<SubTexture name="Roger Down10" x="567" y="0" width="567" height="547"/>
+	<SubTexture name="Roger Down11" x="567" y="0" width="567" height="547"/>
+	<SubTexture name="Roger Idle0" x="1134" y="0" width="582" height="547"/>
+	<SubTexture name="Roger Idle1" x="1134" y="0" width="582" height="547"/>
+	<SubTexture name="Roger Idle2" x="1716" y="0" width="568" height="547" frameX="-14" frameY="0" frameWidth="582" frameHeight="547"/>
+	<SubTexture name="Roger Idle3" x="1716" y="0" width="568" height="547" frameX="-14" frameY="0" frameWidth="582" frameHeight="547"/>
+	<SubTexture name="Roger Idle4" x="2284" y="0" width="568" height="547" frameX="-14" frameY="0" frameWidth="582" frameHeight="547"/>
+	<SubTexture name="Roger Idle5" x="2284" y="0" width="568" height="547" frameX="-14" frameY="0" frameWidth="582" frameHeight="547"/>
+	<SubTexture name="Roger Idle6" x="2852" y="0" width="568" height="547" frameX="-14" frameY="0" frameWidth="582" frameHeight="547"/>
+	<SubTexture name="Roger Idle7" x="2852" y="0" width="568" height="547" frameX="-14" frameY="0" frameWidth="582" frameHeight="547"/>
+	<SubTexture name="Roger Idle8" x="3420" y="0" width="568" height="547" frameX="-14" frameY="0" frameWidth="582" frameHeight="547"/>
+	<SubTexture name="Roger Idle9" x="3420" y="0" width="568" height="547" frameX="-14" frameY="0" frameWidth="582" frameHeight="547"/>
+	<SubTexture name="Roger Idle10" x="0" y="547" width="568" height="547" frameX="-14" frameY="0" frameWidth="582" frameHeight="547"/>
+	<SubTexture name="Roger Idle11" x="0" y="547" width="568" height="547" frameX="-14" frameY="0" frameWidth="582" frameHeight="547"/>
+	<SubTexture name="Roger Idle12" x="0" y="547" width="568" height="547" frameX="-14" frameY="0" frameWidth="582" frameHeight="547"/>
+	<SubTexture name="Roger Idle13" x="0" y="547" width="568" height="547" frameX="-14" frameY="0" frameWidth="582" frameHeight="547"/>
+	<SubTexture name="Roger Left0" x="568" y="547" width="567" height="559"/>
+	<SubTexture name="Roger Left1" x="568" y="547" width="567" height="559"/>
+	<SubTexture name="Roger Left2" x="1135" y="547" width="567" height="547" frameX="0" frameY="-12" frameWidth="567" frameHeight="559"/>
+	<SubTexture name="Roger Left3" x="1135" y="547" width="567" height="547" frameX="0" frameY="-12" frameWidth="567" frameHeight="559"/>
+	<SubTexture name="Roger Left4" x="1135" y="547" width="567" height="547" frameX="0" frameY="-12" frameWidth="567" frameHeight="559"/>
+	<SubTexture name="Roger Left5" x="1135" y="547" width="567" height="547" frameX="0" frameY="-12" frameWidth="567" frameHeight="559"/>
+	<SubTexture name="Roger Left6" x="1135" y="547" width="567" height="547" frameX="0" frameY="-12" frameWidth="567" frameHeight="559"/>
+	<SubTexture name="Roger Left7" x="1135" y="547" width="567" height="547" frameX="0" frameY="-12" frameWidth="567" frameHeight="559"/>
+	<SubTexture name="Roger Left8" x="1135" y="547" width="567" height="547" frameX="0" frameY="-12" frameWidth="567" frameHeight="559"/>
+	<SubTexture name="Roger Left9" x="1135" y="547" width="567" height="547" frameX="0" frameY="-12" frameWidth="567" frameHeight="559"/>
+	<SubTexture name="Roger Left10" x="1135" y="547" width="567" height="547" frameX="0" frameY="-12" frameWidth="567" frameHeight="559"/>
+	<SubTexture name="Roger Right0" x="1702" y="547" width="567" height="547"/>
+	<SubTexture name="Roger Right1" x="1702" y="547" width="567" height="547"/>
+	<SubTexture name="Roger Right2" x="2269" y="547" width="567" height="547"/>
+	<SubTexture name="Roger Right3" x="2269" y="547" width="567" height="547"/>
+	<SubTexture name="Roger Right4" x="2269" y="547" width="567" height="547"/>
+	<SubTexture name="Roger Right5" x="2269" y="547" width="567" height="547"/>
+	<SubTexture name="Roger Right6" x="2269" y="547" width="567" height="547"/>
+	<SubTexture name="Roger Right7" x="2269" y="547" width="567" height="547"/>
+	<SubTexture name="Roger Right8" x="2269" y="547" width="567" height="547"/>
+	<SubTexture name="Roger Right9" x="2269" y="547" width="567" height="547"/>
+	<SubTexture name="Roger Right10" x="2269" y="547" width="567" height="547"/>
+	<SubTexture name="Roger Right11" x="2269" y="547" width="567" height="547"/>
+	<SubTexture name="Roger Up0" x="2836" y="547" width="567" height="587"/>
+	<SubTexture name="Roger Up1" x="2836" y="547" width="567" height="587"/>
+	<SubTexture name="Roger Up2" x="3403" y="547" width="567" height="567" frameX="0" frameY="-20" frameWidth="567" frameHeight="587"/>
+	<SubTexture name="Roger Up3" x="3403" y="547" width="567" height="567" frameX="0" frameY="-20" frameWidth="567" frameHeight="587"/>
+	<SubTexture name="Roger Up4" x="3403" y="547" width="567" height="567" frameX="0" frameY="-20" frameWidth="567" frameHeight="587"/>
+	<SubTexture name="Roger Up5" x="3403" y="547" width="567" height="567" frameX="0" frameY="-20" frameWidth="567" frameHeight="587"/>
+	<SubTexture name="Roger Up6" x="3403" y="547" width="567" height="567" frameX="0" frameY="-20" frameWidth="567" frameHeight="587"/>
+	<SubTexture name="Roger Up7" x="3403" y="547" width="567" height="567" frameX="0" frameY="-20" frameWidth="567" frameHeight="587"/>
+	<SubTexture name="Roger Up8" x="3403" y="547" width="567" height="567" frameX="0" frameY="-20" frameWidth="567" frameHeight="587"/>
+	<SubTexture name="Roger Up9" x="3403" y="547" width="567" height="567" frameX="0" frameY="-20" frameWidth="567" frameHeight="587"/>
+	<SubTexture name="Roger Up10" x="3403" y="547" width="567" height="567" frameX="0" frameY="-20" frameWidth="567" frameHeight="587"/>
+	<SubTexture name="Roger Up11" x="3403" y="547" width="567" height="567" frameX="0" frameY="-20" frameWidth="567" frameHeight="587"/>
+</TextureAtlas>

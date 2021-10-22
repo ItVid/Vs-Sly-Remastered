@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="FNF_main_menu_assets.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="credits selected0000" x="0" y="0" width="424" height="100"/>
+	<SubTexture name="credits unselected0000" x="424" y="0" width="424" height="100"/>
+	<SubTexture name="extras selected0000" x="0" y="100" width="424" height="100"/>
+	<SubTexture name="extras unselected0000" x="424" y="100" width="424" height="100"/>
+	<SubTexture name="freeplay selected0000" x="0" y="200" width="424" height="100"/>
+	<SubTexture name="freeplay unselected0000" x="424" y="200" width="424" height="100"/>
+	<SubTexture name="options selected0000" x="0" y="300" width="394" height="100"/>
+	<SubTexture name="options unselected0000" x="394" y="300" width="394" height="100"/>
+	<SubTexture name="social selected0000" x="0" y="400" width="424" height="100"/>
+	<SubTexture name="social unselected0000" x="424" y="400" width="424" height="100"/>
+	<SubTexture name="story selected0000" x="0" y="500" width="291" height="100"/>
+	<SubTexture name="story unselected0000" x="291" y="500" width="290" height="100"/>
+</TextureAtlas>

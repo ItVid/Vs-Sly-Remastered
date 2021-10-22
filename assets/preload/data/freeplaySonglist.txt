@@ -1,0 +1,7 @@
+Wow:sly:1
+Hoodie:sly:1
+Quake:sly:1
+Demise:sly:1
+Rematch:sly:2
+Reality:sly:2
+Nightmare:sly:5

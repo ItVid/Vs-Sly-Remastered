@@ -1,0 +1,9 @@
+wowstage
+mall
+quakestage
+demisestage
+resonancestage
+whitemall
+sunsetmall
+nightmaremall
+space
