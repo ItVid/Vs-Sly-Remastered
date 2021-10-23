@@ -17,6 +17,8 @@ class Character extends FlxSprite
 
 	public var holdTimer:Float = 0;
 
+	public var iconColor:String = "FF82d4f5";
+
 	public function new(x:Float, y:Float, ?character:String = "bf", ?isPlayer:Bool = false)
 	{
 		super(x, y);
@@ -166,6 +168,7 @@ class Character extends FlxSprite
 				playAnim('idle');
 
 			case 'roger':
+				iconColor = 'FFC28830';
 				// ROGER ANIMATION LOADING CODE
 				tex = Paths.getSparrowAtlas('characters/Roger');
 				frames = tex;
@@ -184,6 +187,7 @@ class Character extends FlxSprite
 				playAnim('idle');
 
 			case 'hoodie-man':
+				iconColor = 'FF388A41';
 				tex = Paths.getSparrowAtlas('characters/Hoodie_Man');
 				frames = tex;
 				animation.addByPrefix('idle', 'LemonyHDOnTwitch', 24);
@@ -202,6 +206,7 @@ class Character extends FlxSprite
 
 			case 'sly':
 				// SLY ANIMATION LOADING CODE
+				iconColor = 'FF66388A';
 				tex = Paths.getSparrowAtlas('characters/sly_assets');
 				frames = tex;
 				animation.addByPrefix('idle', 'Sly Idle Dance', 24);
@@ -220,6 +225,7 @@ class Character extends FlxSprite
 
 			case 'sly-angry':
 				tex = Paths.getSparrowAtlas('characters/slyangry_assets');
+				iconColor = 'FF66388A';
 				frames = tex;
 				animation.addByPrefix('idle', 'sly idle dance', 24);
 				animation.addByPrefix('singUP', 'sly Sing Note UP', 24);
@@ -364,6 +370,7 @@ class Character extends FlxSprite
 
 			case 'bf':
 				var tex = Paths.getSparrowAtlas('characters/BOYFRIEND');
+				iconColor = 'FF28AFC9';
 				frames = tex;
 				animation.addByPrefix('idle', 'BF idle dance', 24, false);
 				animation.addByPrefix('singUP', 'BF NOTE UP0', 24, false);

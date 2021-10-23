@@ -1226,21 +1226,8 @@ class PlayState extends MusicBeatState
 		healthBar = new FlxBar(healthBarBG.x + 4, healthBarBG.y + 4, RIGHT_TO_LEFT, Std.int(healthBarBG.width - 8), Std.int(healthBarBG.height - 8), this,
 			'health', 0, 2);
 		healthBar.scrollFactor.set();
+		healthBar.createFilledBar(FlxColor.fromString('#' + dad.iconColor), FlxColor.fromString('#' + boyfriend.iconColor));
 
-		switch (dad.curCharacter)
-		{
-			case 'sly':
-			healthBar.createFilledBar(0xFF66388A, 0xFF28AFC9);
-
-			case 'sly-angry':
-			healthBar.createFilledBar(0xFF66388A, 0xFF28AFC9);
-
-			case 'hoodie-man':
-			healthBar.createFilledBar(0xFF388A41, 0xFF28AFC9);
-
-			case 'roger':
-			healthBar.createFilledBar(0xFFC28830, 0xFF28AFC9);
-		}
 		add(healthBar);
 
 		// Add Kade Engine watermark
