@@ -1,5 +1,6 @@
 package;
 
+import GameJolt.GameJoltAPI;
 import Controls.KeyboardScheme;
 import flixel.FlxG;
 import flixel.FlxObject;
@@ -115,6 +116,7 @@ class GalleryState extends MusicBeatState
 
 			if (curSelected == 11)
 			{
+				GameJoltAPI.getTrophy(150850);
 				FlxG.save.data.roger = true;
 			PlayState.isStoryMode = false;
 

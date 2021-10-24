@@ -1039,7 +1039,7 @@ class PlayState extends MusicBeatState
 				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 			case 'sly':
 				dad.x += 62;
-				dad.y += 70;
+				dad.y += 20;
 				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 			case 'sly-angry':
 				dad.x += 71;
@@ -3019,8 +3019,18 @@ class PlayState extends MusicBeatState
 				FlxG.save.data.nightmarebeat = true;
 			}
 			}
+
+			if (SONG.song.toLowerCase() == 'roger')
+			{
+			GameJoltAPI.getTrophy(150153);	
+			if (misses == 0)
+			{
+				GameJoltAPI.getTrophy(150851);	
+				FlxG.save.data.rogerbeat = true;
+			}
+			}
 			
-			if (FlxG.save.data.rematchbeat == true && FlxG.save.data.resonancebeat == true && FlxG.save.data.hoodiebeat == true && FlxG.save.data.quakebeat == true && FlxG.save.data.wowbeat == true && FlxG.save.data.gunsbeat == true && FlxG.save.data.demisebeat == true && FlxG.save.data.realitybeat == true && FlxG.save.data.nightmarebeat == true)
+			if (FlxG.save.data.rematchbeat == true && FlxG.save.data.rogerbeat == true && FlxG.save.data.resonancebeat == true && FlxG.save.data.hoodiebeat == true && FlxG.save.data.quakebeat == true && FlxG.save.data.wowbeat == true && FlxG.save.data.gunsbeat == true && FlxG.save.data.demisebeat == true && FlxG.save.data.realitybeat == true && FlxG.save.data.nightmarebeat == true)
 			GameJoltAPI.getTrophy(150039);
 
 			

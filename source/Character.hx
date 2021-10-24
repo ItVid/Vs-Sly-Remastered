@@ -216,10 +216,10 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT', 'Sly Left Note', 24);
 
 				addOffset('idle');
-				addOffset("singUP", 87, 38);
-				addOffset("singRIGHT", 56, 45);
-				addOffset("singLEFT", 102, 51);
-				addOffset("singDOWN", 147, 83);
+				addOffset("singUP", 41, 43);
+				addOffset("singRIGHT", -2, -2);
+				addOffset("singLEFT", 67, 12);
+				addOffset("singDOWN", 13, -18);
 
 				playAnim('idle');
 
