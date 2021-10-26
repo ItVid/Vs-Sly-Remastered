@@ -99,7 +99,7 @@ class FreeplayState extends MusicBeatState
 			addWeek(['Guns'], 3, ['sly']);
 		}
 
-		if (FlxG.save.data.roger)
+		if (FlxG.save.data.roger == true)
 		{
 			addWeek(['Roger'], 4, ['roger']);
 		}

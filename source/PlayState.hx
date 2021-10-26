@@ -503,8 +503,16 @@ class PlayState extends MusicBeatState
 					bg.updateHitbox();
 					add(bg);
 
+					if (SONG.song.toLowerCase() == 'roger')
+					upperBoppers = new FlxSprite(-240, -10);
+					else
 					upperBoppers = new FlxSprite(-240, -30);
+
+					if (SONG.song.toLowerCase() == 'roger')
+					upperBoppers.frames = Paths.getSparrowAtlas('christmas/upperBopRoger','week5');
+					else
 					upperBoppers.frames = Paths.getSparrowAtlas('christmas/upperBop','week5');
+
 					upperBoppers.animation.addByPrefix('bop', "Upper Crowd Bob", 24, false);
 					upperBoppers.antialiasing = true;
 					upperBoppers.scrollFactor.set(0.33, 0.33);
@@ -3021,8 +3029,7 @@ class PlayState extends MusicBeatState
 			}
 
 			if (SONG.song.toLowerCase() == 'roger')
-			{
-			GameJoltAPI.getTrophy(150153);	
+			{	
 			if (misses == 0)
 			{
 				GameJoltAPI.getTrophy(150851);	

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="upperBopRoger.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Upper Crowd Bob0000" x="1" y="1" width="4096" height="297" frameX="0" frameY="-4" frameWidth="4096" frameHeight="317"/>
+	<SubTexture name="Upper Crowd Bob0001" x="1" y="1" width="4096" height="297" frameX="0" frameY="-4" frameWidth="4096" frameHeight="317"/>
+	<SubTexture name="Upper Crowd Bob0002" x="1" y="299" width="4096" height="310" frameX="0" frameY="-7" frameWidth="4096" frameHeight="317"/>
+	<SubTexture name="Upper Crowd Bob0003" x="1" y="299" width="4096" height="310" frameX="0" frameY="-7" frameWidth="4096" frameHeight="317"/>
+	<SubTexture name="Upper Crowd Bob0004" x="1" y="610" width="4096" height="311" frameX="0" frameY="-4" frameWidth="4096" frameHeight="317"/>
+	<SubTexture name="Upper Crowd Bob0005" x="1" y="610" width="4096" height="311" frameX="0" frameY="-4" frameWidth="4096" frameHeight="317"/>
+	<SubTexture name="Upper Crowd Bob0006" x="1" y="922" width="4096" height="296" frameX="0" frameY="0" frameWidth="4096" frameHeight="317"/>
+</TextureAtlas>
