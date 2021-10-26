@@ -17,5 +17,6 @@ senpai-angry
 spirit
 sly
 sly-angry
+nightmare-sly
 hoodie-man
 roger

@@ -223,21 +223,40 @@ class Character extends FlxSprite
 
 				playAnim('idle');
 
-			case 'sly-angry':
-				tex = Paths.getSparrowAtlas('characters/slyangry_assets');
-				iconColor = 'FF66388A';
+
+			case 'nightmare-sly':
+				iconColor = 'FF651414';
+				tex = Paths.getSparrowAtlas('characters/nightmare_sly');
 				frames = tex;
-				animation.addByPrefix('idle', 'sly idle dance', 24);
-				animation.addByPrefix('singUP', 'sly Sing Note UP', 24);
-				animation.addByPrefix('singRIGHT', 'sly Sing Note RIGHT', 24);
-				animation.addByPrefix('singDOWN', 'sly Sing Note DOWN', 24);
-				animation.addByPrefix('singLEFT', 'sly Sing Note LEFT', 24);
+				animation.addByPrefix('idle', 'sly idle', 24);
+				animation.addByPrefix('singUP', 'up', 24);
+				animation.addByPrefix('singRIGHT', 'right', 24);
+				animation.addByPrefix('singDOWN', 'down', 24);
+				animation.addByPrefix('singLEFT', 'left', 24);
 
 				addOffset('idle');
-				addOffset("singUP", -5, 20);
-				addOffset("singRIGHT", -45, -11);
-				addOffset("singLEFT", -14, 22);
-				addOffset("singDOWN", -36, 23);
+				addOffset("singUP", 326, 464);
+				addOffset("singRIGHT", 338, 451);
+				addOffset("singLEFT", 156, 9);
+				addOffset("singDOWN", 32, 9);
+
+				playAnim('idle');
+
+			case 'sly-angry':
+				tex = Paths.getSparrowAtlas('characters/sly_static');
+				iconColor = 'FF66388A';
+				frames = tex;
+				animation.addByPrefix('idle', 'sly idle', 24);
+				animation.addByPrefix('singUP', 'up', 24);
+				animation.addByPrefix('singRIGHT', 'right', 24);
+				animation.addByPrefix('singDOWN', 'down', 24);
+				animation.addByPrefix('singLEFT', 'left', 24);
+
+				addOffset('idle');
+				addOffset("singUP", 326, 464);
+				addOffset("singRIGHT", 338, 451);
+				addOffset("singLEFT", 156, 9);
+				addOffset("singDOWN", 32, 9);
 
 				playAnim('idle');
 
