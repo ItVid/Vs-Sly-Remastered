@@ -53,7 +53,7 @@ class CreditsMenu extends MusicBeatState
 	'',
 	'NOTE SPLASHES',
 	'Bonk',
-	''
+	'',
 	'OG SPRITE ANIMATION',
 	'ash237',
 	'',
