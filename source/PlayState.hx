@@ -1081,6 +1081,10 @@ class PlayState extends MusicBeatState
 				boyfriend.x += 200;
 				boyfriend.y += 50;
 
+			case 'demisestage':
+				boyfriend.x += 200;
+				boyfriend.y += 70;
+
 			case 'whitemall':
 				boyfriend.x += 200;
 				boyfriend.y += 50;
@@ -4240,6 +4244,11 @@ class PlayState extends MusicBeatState
 				}
 			
 			case 'whitemall':
+				if(FlxG.save.data.distractions){
+					upperBoppers.animation.play('bop', true);
+				}
+
+			case 'quakestage':
 				if(FlxG.save.data.distractions){
 					upperBoppers.animation.play('bop', true);
 				}

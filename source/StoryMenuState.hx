@@ -32,7 +32,7 @@ class StoryMenuState extends MusicBeatState
 	];
 	var curDifficulty:Int = 2;
 
-	public static var weekUnlocked:Array<Bool> = [true, true];
+	public static var weekUnlocked:Array<Bool> = [true, true, true];
 
 	var weekCharacters:Array<Dynamic> = [
 		['', 'sly1', ''],
@@ -274,7 +274,7 @@ class StoryMenuState extends MusicBeatState
 	{
 		if (weekUnlocked[curWeek])
 		{
-			if (stopspamming == false)
+				if (stopspamming == false)
 			{
 				FlxG.sound.play(Paths.sound('confirmMenu'));
 
@@ -350,10 +350,10 @@ class StoryMenuState extends MusicBeatState
 	{
 		curWeek += change;
 
-		if (curWeek >= weekData.length)
+		if (curWeek >= 3)
 			curWeek = 0;
 		if (curWeek < 0)
-			curWeek = weekData.length - 1;
+			curWeek = 2;
 
 		var bullShit:Int = 0;
 

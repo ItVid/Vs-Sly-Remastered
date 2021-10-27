@@ -105,7 +105,7 @@ class DialogueBox extends FlxSpriteGroup
 		handSelect = new FlxSprite(FlxG.width * 0.9, FlxG.height * 0.9).loadGraphic(Paths.image('weeb/pixelUI/hand_textbox'));
 		add(handSelect);
 		}
-		else if (PlayState.SONG.song.toLowerCase() == 'wow' || PlayState.SONG.song.toLowerCase() == 'hoodie' || PlayState.SONG.song.toLowerCase() == 'rematch' || PlayState.SONG.song.toLowerCase() == 'sly' || PlayState.SONG.song.toLowerCase() == 'roger')
+		else if (PlayState.SONG.song.toLowerCase() == 'wow' || PlayState.SONG.song.toLowerCase() == 'hoodie' || PlayState.SONG.song.toLowerCase() == 'rematch' || PlayState.SONG.song.toLowerCase() == 'sly' || PlayState.SONG.song.toLowerCase() == 'roger' || PlayState.SONG.song.toLowerCase() == 'quake' || PlayState.SONG.song.toLowerCase() == 'demise' || PlayState.SONG.song.toLowerCase() == 'reality')
 		{
 		portraitLeft = new FlxSprite(50, 40);
 		portraitLeft.frames = Paths.getSparrowAtlas('portraits/dialogue_sly', 'shared');
@@ -149,59 +149,6 @@ class DialogueBox extends FlxSpriteGroup
 		add(box);
 
 		box.screenCenter(X);
-
-		handSelect = new FlxSprite(FlxG.width * 0.9, FlxG.height * 0.9).loadGraphic(Paths.image('weeb/pixelUI/hand_textbox'));
-		handSelect.setGraphicSize(Std.int(handSelect.width * PlayState.daPixelZoom));
-		add(handSelect);
-		}
-		else if (PlayState.SONG.song.toLowerCase() == 'quake' || PlayState.SONG.song.toLowerCase() == 'demise' || PlayState.SONG.song.toLowerCase() == 'reality')
-		{
-		portraitLeft = new FlxSprite(50, 40);
-		portraitLeft.frames = Paths.getSparrowAtlas('portraits/dialogue_angrysly', 'shared');
-		portraitLeft.animation.addByPrefix('enter', 'dialogue_skyangry_A', 24, false);
-		portraitLeft.setGraphicSize(Std.int(portraitLeft.width * PlayState.daPixelZoom * 0.15));
-		portraitLeft.updateHitbox();
-		portraitLeft.scrollFactor.set();
-		add(portraitLeft);
-		portraitLeft.visible = false;
-
-		portraitLeftB = new FlxSprite(50, 40);
-		portraitLeftB.frames = Paths.getSparrowAtlas('portraits/dialogue_angrysly', 'shared');
-		portraitLeftB.animation.addByPrefix('enter', 'dialogue_skyangry_B', 24, false);
-		portraitLeftB.setGraphicSize(Std.int(portraitLeftB.width * PlayState.daPixelZoom * 0.15));
-		portraitLeftB.updateHitbox();
-		portraitLeftB.scrollFactor.set();
-		add(portraitLeftB);
-		portraitLeftB.visible = false;
-
-		portraitLeftC = new FlxSprite(50, 38);
-		portraitLeftC.frames = Paths.getSparrowAtlas('portraits/dialogue_angrysly', 'shared');
-		portraitLeftC.animation.addByPrefix('enter', 'dialogue_skyangry_C', 24, false);
-		portraitLeftC.setGraphicSize(Std.int(portraitLeftC.width * PlayState.daPixelZoom * 0.15));
-		portraitLeftC.updateHitbox();
-		portraitLeftC.scrollFactor.set();
-		add(portraitLeftC);
-		portraitLeftC.visible = false;
-
-		portraitRight = new FlxSprite(700, 200);
-		portraitRight.frames = Paths.getSparrowAtlas('portraits/BF_Dialogue', 'shared');
-		portraitRight.animation.addByPrefix('enter', 'BF_Dialogue_A', 24, false);
-		portraitRight.setGraphicSize(Std.int(portraitRight.width * PlayState.daPixelZoom * 0.15));
-		portraitRight.updateHitbox();
-		portraitRight.scrollFactor.set();
-		add(portraitRight);
-		portraitRight.visible = false;
-		
-		box.animation.play('normalOpen');
-		box.setGraphicSize(Std.int(box.width * PlayState.daPixelZoom * 0.9));
-		box.updateHitbox();
-		add(box);
-
-		box.screenCenter(X);
-
-		handSelect = new FlxSprite(FlxG.width * 0.9, FlxG.height * 0.9).loadGraphic(Paths.image('weeb/pixelUI/hand_textbox'));
-		handSelect.setGraphicSize(Std.int(handSelect.width * PlayState.daPixelZoom));
-		add(handSelect);
 		}
 
 

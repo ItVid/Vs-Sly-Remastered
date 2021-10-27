@@ -93,7 +93,7 @@ class FreeplayState extends MusicBeatState
 		add(nightmarebg);
 		nightmarebg.visible = false;
 
-		if (FlxG.save.data.beatenHard || isDebug)
+		if (FlxG.save.data.beatenHard == true || isDebug)
 		{
 			addWeek(['Resonance'], 1, ['sly']);
 			addWeek(['Guns'], 3, ['sly']);
@@ -102,6 +102,11 @@ class FreeplayState extends MusicBeatState
 		if (FlxG.save.data.roger == true)
 		{
 			addWeek(['Roger'], 4, ['roger']);
+		}
+
+		if (FlxG.save.data.sly2 == true)
+		{
+			addWeek(['Sly'], 3, ['sly']);
 		}
 
 		grpSongs = new FlxTypedGroup<Alphabet>();
@@ -283,6 +288,30 @@ class FreeplayState extends MusicBeatState
 				slybg.visible = false;
 				sly15bg.visible = false;
 				rogerbg.visible = false;
+			}
+
+			if (songs[curSelected].songName == 'roger')
+			{
+				sly2bg.visible = false;
+				rogerbg.visible = true;
+				slybg.visible = false;
+				nightmarebg.visible = false;
+			}
+
+			if (songs[curSelected].songName == 'sly')
+			{
+				sly2bg.visible = true;
+				rogerbg.visible = false;
+				slybg.visible = false;
+				nightmarebg.visible = false;
+			}
+
+			if (songs[curSelected].songName == 'guns' || songs[curSelected].songName == 'resonance')
+			{
+				sly2bg.visible = false;
+				rogerbg.visible = false;
+				slybg.visible = true;
+				nightmarebg.visible = false;
 			}
 	}
 

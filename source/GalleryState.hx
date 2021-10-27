@@ -97,7 +97,7 @@ class GalleryState extends MusicBeatState
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
 		}
 
-		if (curSelected ==  10 || curSelected == 15 || curSelected == 19 || curSelected == 11)
+		if (curSelected ==  10 || curSelected == 15 || curSelected == 19 || curSelected == 11 || curSelected == 8)
 			FlxG.mouse.visible = true;
 		else
 			FlxG.mouse.visible = false;
@@ -123,6 +123,19 @@ class GalleryState extends MusicBeatState
 			var poop:String = Highscore.formatSong('Roger', 2);
 
 			PlayState.SONG = Song.loadFromJson(poop, 'roger');
+			PlayState.storyDifficulty = 2;
+			PlayState.campaignScore = 0;
+			LoadingState.loadAndSwitchState(new PlayState(), true);		
+			}
+
+			if (curSelected == 8)
+			{
+			FlxG.save.data.sly2 = true;
+			PlayState.isStoryMode = false;
+
+			var poop:String = Highscore.formatSong('Sly', 2);
+
+			PlayState.SONG = Song.loadFromJson(poop, 'sly');
 			PlayState.storyDifficulty = 2;
 			PlayState.campaignScore = 0;
 			LoadingState.loadAndSwitchState(new PlayState(), true);		
