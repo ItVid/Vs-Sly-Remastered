@@ -35,7 +35,7 @@ class CreditsMenu extends MusicBeatState
 	'LEAD PROGRAMMER',
 	'LemonKing',
 	'',
-	'Programmer',
+	'PROGRAMMER',
 	'Vidz',
 	'',
 	'Music',
@@ -51,6 +51,9 @@ class CreditsMenu extends MusicBeatState
 	'Runnerdude127',
 	'CritVA',
 	'',
+	'NOTE SPLASHES',
+	'Bonk',
+	''
 	'OG SPRITE ANIMATION',
 	'ash237',
 	'',
