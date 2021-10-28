@@ -3087,11 +3087,11 @@ class PlayState extends MusicBeatState
 						if (storyDifficulty == 2)
 						{
 						FlxG.save.data.beatenHard = true;
-						LoadingState.loadAndSwitchState(new VideoState("assets/videos/ending.webm",new StoryMenuState()));
+						LoadingState.loadAndSwitchState(new VideoState("assets/videos/ending.webm",new UnlockSubState()));
 						}
 						else
 						{
-							LoadingState.loadAndSwitchState(new VideoState("assets/videos/ending.webm",new StoryMenuState()));
+							LoadingState.loadAndSwitchState(new VideoState("assets/videos/ending.webm",new UnlockSubState()));
 						}
 					}
 					if (storyWeek == 1)
