@@ -128,6 +128,7 @@ class PlayState extends MusicBeatState
 
 	private var gfSpeed:Int = 1;
 	private var health:Float = 1;
+	private var notehealthdmg:Float = 0.00;
 	private var combo:Int = 0;
 	public static var misses:Int = 0;
 	private var accuracy:Float = 0.00;
@@ -249,6 +250,8 @@ class PlayState extends MusicBeatState
 
 		repPresses = 0;
 		repReleases = 0;
+
+		notehealthdmg = 0;
 
 		setChrome(0.0);
 
@@ -2739,6 +2742,8 @@ class PlayState extends MusicBeatState
 				notes.forEachAlive(function(daNote:Note)
 				{	
 
+				
+
 					// instead of doing stupid y > FlxG.height
 					// we be men and actually calculate the time :)
 					if (daNote.tooLate)
@@ -2751,6 +2756,9 @@ class PlayState extends MusicBeatState
 						daNote.visible = true;
 						daNote.active = true;
 					}
+
+
+					
 					
 					if (!daNote.modifiedByLua)
 					{
@@ -2838,6 +2846,21 @@ class PlayState extends MusicBeatState
 							if (SONG.notes[Math.floor(curStep / 16)].altAnim)
 								altAnim = '-alt';
 						}
+
+						if (curSong == 'Nightmare')
+							{
+								notehealthdmg = 0.015;
+
+								if (health > 0.05)
+									if (daNote.isSustainNote)
+										{
+											health -= notehealthdmg / 4;
+										}
+									else
+										{
+											health -= notehealthdmg;
+										}
+							}
 	
 						switch (Math.abs(daNote.noteData))
 						{
